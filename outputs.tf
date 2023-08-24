@@ -3,5 +3,5 @@ output "Project_ID" {
 }
 
 output "Project_URL" {
-  value = azuredevops_project.terraform_ado_project.url
+  value = azuredevops_project.terraform_ado_project.name
 }
